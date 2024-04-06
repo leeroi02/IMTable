@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.wrapper {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+}
+
+
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+    color: white;
+    
+    
+}
+
+.input-box input {
+    background-color: black;
+    width: calc(100% - 60px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline:  white;
+    color: white;
+}
+
+
+
+.input-box i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: white;
+}
+
+.btn {
+    padding: 10px 50px;
+    background: rgba(162, 0, 255, 0.63);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; 
+    margin-top: 20px;
+    
+}
+
+.btn:hover {
+    background-color: #00FFFF;
+}
+
+.register-link a{
+    color: #00FFFF;
+}
+
+.register-link a:hover{
+    color: rgba(162, 0, 255, 0.63);
+}
+
+footer {
+   
+    color: white; 
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    text-align: center; 
+    padding: 20px 0; 
+}
+
+.message-box {
+    display: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f00; 
+    color: #fff; 
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.message-box.active {
+    display: block;
+}
+
+.message-box2 {
+    display: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff; 
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #00FF00; 
+}
+
+.message-box2.active{
+    display: block;
+}
+
+.close-btn {
+    float: right;
+    margin-left: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: #f00;
+    font-size: 20px;
+}
+
+.close-btn2 {
+    float: right;
+    margin-left: 10px;
+    cursor: pointer;
+    color: black;
+    background-color: #00FF00;
+    font-size: 20px;
+}
+
+
+
+
+
+
