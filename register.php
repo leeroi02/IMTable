@@ -57,6 +57,7 @@ if(isset($_POST['btnRegister'])){
             margin-left: 470px;
             margin-top: 160px;
             overflow: hidden;
+            color: #fff;
         }
 
 
