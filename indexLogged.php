@@ -93,6 +93,7 @@ mysqli_close($connection);
     
     <a href="question.php" class="btn2">Ask a Question</a>
     <a href="Userquestion.php" class="btn2">View Questions</a>
+    <a href="reports.php" class="btn2">Reports</a>
 </div>
 
 </body>
